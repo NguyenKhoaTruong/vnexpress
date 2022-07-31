@@ -4,19 +4,20 @@ import Nav from './Nav/Nav';
 import Footer from './Footer/Footer';
 import Header from './Header/Header';
 import * as Icon from 'react-bootstrap-icons';
+
 function App() {
   return (
     <>
       <Nav />
       <Header />
-      <a className='to-top' title='Lên Đầu Trang'>
+      <a className='to-top' title='Lên Đầu Trang' href='/' >
         <Icon.ArrowUp size={30} color="black" style={{ background: "" }} className="ml-1" />
       </a>
       <div className="App">
         <section className='section section_topstory'>
           <div className="container">
             <div className="row">
-              <div className="col">
+              <div className="col" id="/">
                 <img className='img-section-top' />
               </div>
               <div className="col" style={{ borderRight: '1px solid #e5e5e5', borderBottom: '1px solid #e5e5e5' }}>
@@ -86,7 +87,7 @@ function App() {
           </div>
         </section>
         <section className='section section-podcast-v2'>
-          <div className="container" style={{ borderBottom: '1px solid #e5e5e5' }}>
+          <div className="container border" style={{ marginTop: '10px' }}>
             <span className='inner-title'>Podcasts</span>
             <div className="row">
               <div className="col">
@@ -133,12 +134,96 @@ function App() {
             </div>
           </div>
         </section>
-        <section className='section section_container section_video'>
-          <div className='width_common inner-section-video'>
-            <div className='width_common wrapper-box-video'>
-              <div className='box-player-video'>
-                <div className='thumb-video thumb thumb-16x9'></div>
-                <div className='item-news'>
+        <section className='section section_container section_video' style={{ paddingTop: '15px' }}>
+          <div className="container border">
+            <div className='title-section-video'>
+              <span className='inner-title-video'>Video</span>
+              <span className='inner-title-more'>Thời Sự</span>
+              <span className='inner-title-more'>Nhịp Sống</span>
+              <span className='inner-title-more'>Food</span>
+              <span className='inner-title-more'>Cuộc sống 4.0</span>
+              <span className='inner-title-more'>Tôi Kể</span>
+              <span className='inner-title-more'>Chuyện Núi Rừng</span>
+              <span className='inner-title-more'>Nguy Cơ</span>
+            </div>
+            <div className="row">
+              <div className="col">
+                <div className='content-video'>
+                  <div className='video'>
+                    <iframe width="640" height="360" src="https://www.youtube.com/embed/uDPNWlV2OdQ"
+                      title="Toàn cảnh vụ tài xế Mercedes truy đuổi, tông chết người ở Phan Thiết" frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                  <span className='title-video'>
+                    Toàn cảnh vụ tài xế Mercedes truy đuổi, tông chết người ở Phan Thiết.
+                  </span>
+                </div>
+              </div>
+              <div className="col">
+                <div className='list-video'>
+                  <div className='list-content-video border'>
+                    <div className='info-video'>
+                      <iframe width="250" height="150" src="https://www.youtube.com/embed/_pJGJaGJeQc"
+                        title="Hà Nội: Tai nạn liên hoàn giữa 4 ô tô, 6 xe máy khiến 1 người tử vong - VNEWS"
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    </div>
+                    <div className='description-video'>
+                      <p className='title-video'>Hà Nội: Tai nạn liên hoàn giữa 4 ô tô, 6 xe máy khiến 1 người tử vong</p>
+                      <span className='category-video'>
+                        Thời Sự
+                        {' '}<Icon.ChatLeftFill size={15} color="gray" style={{ background: "" }} className="ml-1" /> {' '}
+                      </span>
+                    </div>
+                  </div>
+                  <div className='list-content-video border'>
+                    <div className='info-video'>
+                      <iframe width="250" height="150" src="https://www.youtube.com/embed/_pJGJaGJeQc"
+                        title="Hà Nội: Tai nạn liên hoàn giữa 4 ô tô, 6 xe máy khiến 1 người tử vong - VNEWS"
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    </div>
+                    <div className='description-video'>
+                      <p className='title-video'>Hà Nội: Tai nạn liên hoàn giữa 4 ô tô, 6 xe máy khiến 1 người tử vong</p>
+                      <span className='category-video'>
+                        Thời Sự
+                        {' '}<Icon.ChatLeftFill size={15} color="gray" style={{ background: "" }} className="ml-1" /> {' '}
+                      </span>
+                    </div>
+                  </div>
+                  <div className='list-content-video border'>
+                    <div className='info-video'>
+                      <iframe width="250" height="150" src="https://www.youtube.com/embed/_pJGJaGJeQc"
+                        title="Hà Nội: Tai nạn liên hoàn giữa 4 ô tô, 6 xe máy khiến 1 người tử vong - VNEWS"
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    </div>
+                    <div className='description-video'>
+                      <p className='title-video'>Hà Nội: Tai nạn liên hoàn giữa 4 ô tô, 6 xe máy khiến 1 người tử vong</p>
+                      <span className='category-video'>
+                        Thời Sự
+                        {' '}<Icon.ChatLeftFill size={15} color="gray" style={{ background: "" }} className="ml-1" /> {' '}
+                      </span>
+                    </div>
+                  </div>
+                  <div className='list-content-video border'>
+                    <div className='info-video'>
+                      <iframe width="250" height="150" src="https://www.youtube.com/embed/_pJGJaGJeQc"
+                        title="Hà Nội: Tai nạn liên hoàn giữa 4 ô tô, 6 xe máy khiến 1 người tử vong - VNEWS"
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    </div>
+                    <div className='description-video'>
+                      <p className='title-video'>Hà Nội: Tai nạn liên hoàn giữa 4 ô tô, 6 xe máy khiến 1 người tử vong</p>
+                      <span className='category-video'>
+                        Thời Sự
+                        {' '}<Icon.ChatLeftFill size={15} color="gray" style={{ background: "" }} className="ml-1" /> {' '}
+                      </span>
+
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
