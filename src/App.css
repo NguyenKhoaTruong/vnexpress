@@ -1,0 +1,139 @@
+.App {}
+
+.to-top {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 3px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.section_topstory {
+    margin-top: 20px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    outline: 1;
+}
+
+.container {}
+
+.row {}
+
+.img-section-top {
+    width: 500px;
+    height: 312px;
+    background-image: url('../src/assets/section-top.jpg');
+    border-radius: 5px;
+}
+
+.title-news {
+    width: auto;
+    float: none;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: "Merriweather", serif;
+    line-height: 160%;
+}
+
+.title-news a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+
+}
+
+.title-news a:hover {
+    color: #087cce;
+}
+
+.description a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.description a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.extend-lead a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.extend-lead a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.meta-news a {
+    text-decoration: none;
+    color: gray;
+    cursor: pointer;
+}
+
+.meta-news a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+.list-sub-feature {
+    padding-top: 15px;
+}
+
+.title_news {
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.title_news:hover {
+    color: rgb(88, 88, 241);
+}
+
+.description {
+    cursor: pointer;
+}
+
+.title-link-gn {
+    text-decoration: none;
+    color: crimson;
+    font-weight: 500;
+}
+
+.cat {
+    text-decoration: none;
+    color: gray;
+    font-style: italic;
+    width: 80%;
+}
+
+.number-cat {
+    font-size: 13px;
+    color: #087cce;
+}
+
+.thumb-art.thumb-author-gn {
+    margin-bottom: 15px;
+}
+
+.img-author {
+    background-image: url(https://i1-vnexpress.vnecdn.net/2022/07/30/Vananhremovebgpreviewapng-1659159619.png?w=100&h=100&q=100&dpr=1&fit=crop&s=lp4o6rf0nUOnvFVyt3Ztmw);
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    border-radius: 50%;
+}

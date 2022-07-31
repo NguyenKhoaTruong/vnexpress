@@ -22,9 +22,9 @@ function Header() {
                         <img className="img-international" />
                         International
                     </a>
-                    <form class="search search-vne" action="https://timkiem.vnexpress.net" id="formSearchHeader">
+                    <form className="search search-vne" action="https://timkiem.vnexpress.net" id="formSearchHeader">
                         <input className='keywordHeader' type="text" name="q" placeholder="Tìm kiếm" autocomplete="off" />
-                        <button type="submit" title="Tìm kiếm" class="btn-search-vne" id="buttonSearchHeader">
+                        <button type="submit" title="Tìm kiếm" className="btn-search-vne" id="buttonSearchHeader">
                             <Icon.Search size={15} color="black" style={{ background: "" }} className="icon-search" title='Tìm kiếm' />
                         </button>
                     </form>

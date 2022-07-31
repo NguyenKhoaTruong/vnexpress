@@ -42,6 +42,137 @@ li {
     list-style-type: none;
 }
 
+.footer .wrap-contact {
+    width: 250px;
+    position: relative;
+    line-height: 120%;
+}
+
+.footer .wrap-contact .contact.downloadapp {
+    margin-bottom: 8px;
+}
+
+.footer .wrap-contact .contact {
+    line-height: 120%;
+}
+
+.footer .wrap-contact .contact p {
+    margin-bottom: 6px;
+    color: #757575;
+}
+
+.footer .wrap-contact .contact.downloadapp a {
+    width: 120px;
+    float: left;
+    border-radius: 3px;
+    height: 32px;
+    line-height: 30px;
+    background: #f7f7f7;
+    border: 1px solid #e5e5e5;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    margin-right: 4px;
+    text-decoration: none;
+    color: gray;
+}
+
+.footer .wrap-contact .contact .mail {
+    width: 120px;
+    float: left;
+    border-radius: 3px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.footer .wrap-contact .contact .ads {
+    width: 120px;
+    float: left;
+    border-radius: 3px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+
+.footer .wrap-contact .contact .vlight {
+    width: 100%;
+    float: left;
+    display: block;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.footer .wrap-contact .contact.downloadapp a .ic-vne {
+    width: 16px;
+    height: 16px;
+    background-image: url('../assets/International.png');
+    background-size: cover;
+}
+
+.footer .wrap-contact .contact.downloadapp a .ic-evne {
+    width: 16px;
+    height: 16px;
+    background-image: url('../assets/International.png');
+    color: gray;
+    background-size: cover;
+}
+
+.footer .wrap-contact .contact .ic {
+    margin-right: 5px;
+}
+
+.ic {
+    width: 16px;
+    height: 16px;
+    /* fill: #757575; */
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer .wrap-contact .contact .vlight .ic-vlight {
+    width: 14px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.footer .wrap-contact .contact .ads {
+    width: 120px;
+    float: left;
+    border-radius: 3px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    text-align: left;
+}
+
+.footer .wrap-contact .contact .vlight {
+    width: 100%;
+    float: left;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.footer .wrap-contact .contact .ads .ic .ic-ads {
+    width: 13px;
+    height: 14px;
+}
+
+.footer .wrap-contact .contact .ads .ic {
+    margin-top: -4px;
+}
+
 .footer .list-menu-footer li {
     width: 100%;
     float: left;
@@ -61,3 +192,105 @@ li {
     vertical-align: middle;
     margin: 0 20px 0 0;
 }
+
+.footer .wrap-contact .hotline {
+    padding-top: 8px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.left {
+    float: left !important;
+}
+
+.footer .wrap-contact .hotline .left strong,
+.footer .wrap-contact .hotline .right strong {
+    font-size: 16px;
+}
+
+.footer .wrap-contact .hotline .left p,
+.footer .wrap-contact .hotline .right p {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #757575;
+}
+
+.footer .wrap-contact .hotline .right-line {
+    float: right !important;
+}
+
+.footer .wrap-contact .hotline .left strong,
+.footer .wrap-contact .hotline .right strong {
+    font-size: 16px;
+}
+
+.footer .wrap-contact .hotline .left p,
+.footer .wrap-contact .hotline .right p {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #757575;
+}
+
+.footer .wrap-contact .hotline>p {
+    color: #757575;
+    line-height: 120%;
+    margin-bottom: 10px;
+}
+
+.footer .wrap-contact .contact:after,
+.footer .wrap-contact .hotline:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.flexbox {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.mt15 {
+    margin-top: 15px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.copyright-footer {
+    justify-content: space-between;
+}
+
+.width_common {
+    width: 100%;
+    float: left;
+}
+
+.copyright-footer p:last-of-type {
+    padding-right: 0;
+}
+
+.copyright-footer p {
+    width: 30%;
+    padding-right: 30px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer .copyright a {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.footer .copyright .txt-follow {
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 1px solid #e5e5e5;
+}
+
+/* a:hover {
+    text-decoration: underline !important;
+    color: black !important;
+} */
